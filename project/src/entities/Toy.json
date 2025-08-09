@@ -1,0 +1,47 @@
+{
+  "name": "Toy",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the toy"
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the toy"
+    },
+    "category": {
+      "type": "string",
+      "description": "Category of toy (e.g., Action Figure, Doll, Educational, etc.)"
+    },
+    "ageRange": {
+      "type": "string",
+      "description": "Recommended age range for the toy"
+    },
+    "price": {
+      "type": "number",
+      "description": "Price of the toy in dollars"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the toy"
+    },
+    "imageUrl": {
+      "type": "string",
+      "description": "URL to toy image"
+    },
+    "inStock": {
+      "type": "boolean",
+      "description": "Whether the toy is currently in stock"
+    },
+    "rating": {
+      "type": "number",
+      "description": "User rating from 1-5 stars"
+    }
+  },
+  "required": [
+    "name",
+    "category",
+    "price"
+  ]
+}
